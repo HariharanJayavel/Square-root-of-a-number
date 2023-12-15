@@ -15,17 +15,21 @@ To write a program to find the square root of a number.
 5. Return number
 
 ## Program:
+# Program to find the gcd of number usinf functions
+# Developed By: HARIHARAN J
+# RegisterNumber: 23011967
 ```
-/*
-Program to find the square root for the given number(newton's method) using function.
-Developed by: 
-RegisterNumber:  
-*/
+def gcd():
+    a=int(input())
+    b=int(input())
+    while b!=0:
+        a,b=b,a%b
+    print("GCD of two numbers is:",a)
+
 ```
 
 ## Output:
-![gcd of two number](gcd.png)
-
+![image](https://github.com/HariharanJayavel/Square-root-of-a-number/assets/144870546/7da645d5-1b08-4a00-ab76-6d9be1c97329)
 
 ## Result:
 Thus the program to find the square root for the given number(newton's method) using function is written and verified using python programming.
